@@ -1,0 +1,5380 @@
+{
+  "_meta": {
+    "version": 15,
+    "info": {
+      "importerTime": 1720633561024,
+      "lastUpdate": 1723325649529,
+      "importer": "PCIO",
+      "image": "/assets/1347014523_583125",
+      "name": "Property Poobah",
+      "showName": true,
+      "time": "30",
+      "mode": "vs",
+      "skill": "",
+      "description": "",
+      "similarImage": "",
+      "similarName": "Big Shot",
+      "year": "2001",
+      "similarDesigner": "Alex Randolph",
+      "similarAwards": "",
+      "bgg": "https://boardgamegeek.com/boardgame/1125/big-shot",
+      "rules": "",
+      "ruleText": "The goal of the game is to have the most money at the end. Win auctions to acquire player tokens and place them on the board. For each district, the player with the most tokens will earn money at the end of the game — but ties cancel out! Players may also take loans during the game, but there are diminishing returns, and each one is worth negative points/money at the end.<div><br></div><div>After setup, there are 18 groups of 4 tokens each, and a black token that moves around a track near the groups. Each space on the track corresponds to one of the 18 groups of tokens. On a player's turn, they roll the die, and move the black token that many spaces clockwise around the track, skipping any spaces that are empty of tokens. Where the black token lands, the corresponding group of four tokens is auctioned off to the highest bidder.</div><div><br></div><div>Starting with the current player, players in turn make a bid on how much they are willing to pay to acquire the group of tokens. On their turn to bid, a player may either increase the current highest bid by at least 1, or pass. Once they pass, they are out of the auction and cannot re-enter. After all players pass but one, the remaining player pays their bid to the bank and acquires the four tokens.</div><div><br></div><div>Players may not bid more than the amount of money they possess. However, once per auction, a player may take a loan. The first loan taken grants 9 money, the second loan grans 8 money, and so on. Loans cannot be paid back. At the end of the game, subtract 10 from your score for every loan you've taken.</div><div><br></div><div>The winning bidder acquires the four tokens and places them on any empty spaces on the board. They can be in the same district or spread out among multiple districts. Once placed, tokens are never moved or removed and remain there until the end of the game.</div><div><br></div><div>There are seven spaces in each of 13 districts. No district can have more than seven tokens.&nbsp;</div><div><br></div><div>After the auction winner places all four tokens in any districts they wish, it is the next player's turn, who rolls the die and advances the black token around the track as described previously (skipping any spaces that no longer have any tokens). Gameplay continues until all tokens have been placed in the districts.</div><div><br></div><div>At the end of the game, the player with the most tokens of their colour in a district gains money/VP as outlined below. However, if two or three players tie for the most, <i>their tokens are ignored. </i>The winner of the district is the player who has the most tokens that isn't involved in a tie.</div><div><ul><li>Downtown districts are worth the value printed in their upper-right corner (16-21).</li><li>Suburban districts are worth the value printed in their upper-right corner (9-11). However, if the winner of the district also owns the neighbouring park, the suburb's value is doubled.</li><li>Park districts (showing 2x) are worth nothing themselves. However, a player who wins a park district doubles the value of any neighbouring suburban districts they have also won. The suburban districts won by other players are not affected.</li></ul><div>Players add the value of the districts they own to any remaining money they possess. From this, they subtract 10 money/VPs for every loan they had taken over the course of the game. The player with the most money wins.</div></div><div><br></div><div><i>In the original, there was also a rule that a player cannot win the game unless they win at least two districts. This is optional; the game works fine without this rule. Players should agree beforehand whether to apply this rule.</i></div><div><br><div>This implementation is for three or four players. A three-player game works identically to a four-player game. The colour corresponding to the seat not taken is a \"dummy\" colour. Players still place tokens of this colour, and these tokens still count toward determining ties in a district.</div><div><br></div></div>",
+      "helpText": "After everyone has been seated, click Setup to initialize the game.<div><b>Note: If any group of four tokens are all the same colour, click Setup again. </b>Repeat as necessary until all groups are composed of at least two different colour tokens.</div><div><br></div><div>Setting up the game will determine a random start player and roll the die for that player. When the turn ends, click the die to advance the turn to the next player.</div><div><br></div><div>When a player drops out of an auction, they should click their \"IN AUCTION\" card to flip it to the \"OUT OF AUCTION\" side, so all players can see who is still in and who has passed.</div>",
+      "attribution": "Coding and layout by Darryl Boone, released to the public domain under CC0.<br><div>Photographics from pexels.com</div>",
+      "variantImage": "",
+      "variant": "",
+      "language": "",
+      "players": ""
+    }
+  },
+  "79d20264-5a0d-4f59-bb66-7bbf94e823ad": {
+    "id": "79d20264-5a0d-4f59-bb66-7bbf94e823ad",
+    "x": 2,
+    "y": 2,
+    "z": 14816,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-p2-3"
+  },
+  "4a5e98d8-6827-4adf-ba9d-709a20048238": {
+    "id": "4a5e98d8-6827-4adf-ba9d-709a20048238",
+    "x": 2,
+    "y": 2,
+    "z": 14734,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-p2-1"
+  },
+  "4354e649-e999-4f17-baa8-0355ab279569": {
+    "id": "4354e649-e999-4f17-baa8-0355ab279569",
+    "x": 2,
+    "y": 2,
+    "z": 14825,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s1-3"
+  },
+  "dbd1b27f-da6a-4d6e-8622-f2ae8ada0b5f": {
+    "id": "dbd1b27f-da6a-4d6e-8622-f2ae8ada0b5f",
+    "x": 1050,
+    "y": 510,
+    "z": 21,
+    "type": "label",
+    "text": "20",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "bc8a13ac-c327-4c97-9134-c2d0defec7e3label": {
+    "id": "bc8a13ac-c327-4c97-9134-c2d0defec7e3label",
+    "parent": "money-p1",
+    "movableInEdit": false,
+    "y": -28,
+    "type": "label",
+    "text": "Money",
+    "x": 20,
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "6d586f77-f5f2-4b85-a0d2-d40dd5a13681": {
+    "id": "6d586f77-f5f2-4b85-a0d2-d40dd5a13681",
+    "x": 1373,
+    "y": 517,
+    "z": 7,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "158a3943-4059-4107-98c6-edd0d9df3c7b": {
+    "id": "158a3943-4059-4107-98c6-edd0d9df3c7b",
+    "x": 2,
+    "y": 2,
+    "z": 14880,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "dell-d4-3"
+  },
+  "46021f42-4fb0-4f46-9269-2ad62891d785": {
+    "id": "46021f42-4fb0-4f46-9269-2ad62891d785",
+    "x": 1285,
+    "y": 785,
+    "z": 10,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "c093b98f-3c06-4bf8-b135-79255d612026": {
+    "id": "c093b98f-3c06-4bf8-b135-79255d612026",
+    "x": 1110,
+    "y": 519,
+    "z": 24,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "f7cc5d3d-4566-4ed2-af6a-278633c62959": {
+    "id": "f7cc5d3d-4566-4ed2-af6a-278633c62959",
+    "x": 2,
+    "y": 2,
+    "z": 14897,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s6-2"
+  },
+  "d3b539ef-17a0-4233-9490-cbadb6a32c4e": {
+    "id": "d3b539ef-17a0-4233-9490-cbadb6a32c4e",
+    "x": 2,
+    "y": 2,
+    "z": 14805,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-p2-4"
+  },
+  "0057ba22-710c-49df-9fda-b3d5c7f3108c": {
+    "id": "0057ba22-710c-49df-9fda-b3d5c7f3108c",
+    "z": 14813,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-p2-5"
+  },
+  "0ff07d1f-f203-4a7a-9957-4f313cde5568": {
+    "id": "0ff07d1f-f203-4a7a-9957-4f313cde5568",
+    "x": 2,
+    "y": 2,
+    "z": 14794,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s1-2"
+  },
+  "2e33ad9f-dd92-422e-968a-ddaf397a278f": {
+    "id": "2e33ad9f-dd92-422e-968a-ddaf397a278f",
+    "z": 14884,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-d2-2"
+  },
+  "39b20715-cc19-4d7e-b0a1-6b6574a81178": {
+    "id": "39b20715-cc19-4d7e-b0a1-6b6574a81178",
+    "x": 2,
+    "y": 2,
+    "z": 14909,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-p1-1"
+  },
+  "9238638d-f02b-41f5-a142-941e6f477c77": {
+    "id": "9238638d-f02b-41f5-a142-941e6f477c77",
+    "x": 2,
+    "y": 2,
+    "z": 14778,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s4-5"
+  },
+  "6632ec51-8783-4d30-b75c-d3ff069aabfc": {
+    "id": "6632ec51-8783-4d30-b75c-d3ff069aabfc",
+    "x": 2,
+    "y": 2,
+    "z": 14872,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s5-4"
+  },
+  "782a0354-a9d8-4788-af42-73056d5c31f6": {
+    "id": "782a0354-a9d8-4788-af42-73056d5c31f6",
+    "x": 2,
+    "y": 2,
+    "z": 14822,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s1-5"
+  },
+  "a60bb6cc-6239-443f-ab28-341b1b7b3867": {
+    "id": "a60bb6cc-6239-443f-ab28-341b1b7b3867",
+    "x": 2,
+    "y": 2,
+    "z": 14764,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s3-5"
+  },
+  "a3191bdd-2f69-4b6d-883c-e7d68e02d248": {
+    "id": "a3191bdd-2f69-4b6d-883c-e7d68e02d248",
+    "x": 1373,
+    "y": 426,
+    "z": 5,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "435ed070-e884-43e5-a671-c9a9d6826d9d": {
+    "id": "435ed070-e884-43e5-a671-c9a9d6826d9d",
+    "x": 2,
+    "y": 2,
+    "z": 14774,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s2-2"
+  },
+  "30a5ebf8-f468-4b89-95ef-d009b887799e": {
+    "id": "30a5ebf8-f468-4b89-95ef-d009b887799e",
+    "x": 650,
+    "y": 710,
+    "z": 17,
+    "type": "label",
+    "text": "9",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "704b8edc-c6a8-490c-aa48-389734dca1c1": {
+    "id": "704b8edc-c6a8-490c-aa48-389734dca1c1",
+    "x": 1285,
+    "y": 338,
+    "z": 1,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "39e3981b-bd2f-4ec5-95ac-1b04f727767a": {
+    "id": "39e3981b-bd2f-4ec5-95ac-1b04f727767a",
+    "x": 2,
+    "y": 2,
+    "z": 14839,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s2-7"
+  },
+  "648a79af-0516-4304-90c1-c4e1727f895b": {
+    "id": "648a79af-0516-4304-90c1-c4e1727f895b",
+    "x": 1424,
+    "y": 698,
+    "z": 34,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "12a3d966-cfcc-42bf-96d9-451240fbf646count": {
+    "id": "12a3d966-cfcc-42bf-96d9-451240fbf646count",
+    "parent": "seat-p3",
+    "x": -40,
+    "y": 2,
+    "layer": 3,
+    "height": 38,
+    "width": 30,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "text": 0,
+    "css": "background: white; color: black;font-size:18px; border:1px solid lightgrey;display: flex;justify-content: center;align-items: center;",
+    "borderRadius": 4,
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "ownerGlobalUpdateRoutine": [
+      "var parent = ${PROPERTY parent}",
+      "var player = ${PROPERTY player OF $parent}",
+      {
+        "func": "SELECT",
+        "property": "owner",
+        "value": "${player}"
+      },
+      {
+        "func": "COUNT"
+      },
+      {
+        "func": "SET",
+        "collection": "thisButton",
+        "property": "text",
+        "value": "${COUNT}"
+      }
+    ]
+  },
+  "12a3d966-cfcc-42bf-96d9-451240fbf646count1": {
+    "id": "12a3d966-cfcc-42bf-96d9-451240fbf646count1",
+    "parent": "seat-p3",
+    "x": -40,
+    "y": 2,
+    "layer": 2,
+    "height": 38,
+    "width": 30,
+    "rotation": -6,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "12a3d966-cfcc-42bf-96d9-451240fbf646count2": {
+    "id": "12a3d966-cfcc-42bf-96d9-451240fbf646count2",
+    "parent": "seat-p3",
+    "x": -40,
+    "y": 2,
+    "layer": 1,
+    "height": 38,
+    "width": 30,
+    "rotation": -12,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; border-radius: 4px; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "f8bcd133-82d1-4f80-a4c5-e6307f2f349d": {
+    "id": "f8bcd133-82d1-4f80-a4c5-e6307f2f349d",
+    "x": 2,
+    "y": 2,
+    "z": 14900,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d4-5"
+  },
+  "c6ee4c16-40ac-411d-a258-55ddf0196903": {
+    "id": "c6ee4c16-40ac-411d-a258-55ddf0196903",
+    "x": 2,
+    "y": 2,
+    "z": 14749,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d4-1"
+  },
+  "450bc7da-7ec2-41b8-9fdb-d4a7dd9f62e7": {
+    "id": "450bc7da-7ec2-41b8-9fdb-d4a7dd9f62e7",
+    "x": 1110,
+    "y": 788,
+    "z": 21,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "bbc0fcb0-d8ba-446c-8276-fb7f736b2d73": {
+    "id": "bbc0fcb0-d8ba-446c-8276-fb7f736b2d73",
+    "x": 2,
+    "y": 2,
+    "z": 14833,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s2-5"
+  },
+  "83f7906e-2f25-4e47-8810-22ac78c09264": {
+    "id": "83f7906e-2f25-4e47-8810-22ac78c09264",
+    "x": 1266,
+    "y": 30,
+    "z": 28,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "f0bc9051-5b36-4d29-a14b-83f12e245364": {
+    "id": "f0bc9051-5b36-4d29-a14b-83f12e245364",
+    "z": 14899,
+    "type": "card",
+    "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c",
+    "cardType": "orange",
+    "x": 6,
+    "y": 6,
+    "parent": "8064eeb8-d728-4165-9363-f46aed13d1d5"
+  },
+  "4bd0ef08-6af8-477b-91e6-3b8e09d7d467": {
+    "id": "4bd0ef08-6af8-477b-91e6-3b8e09d7d467",
+    "x": 2,
+    "y": 2,
+    "z": 14851,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s3-7"
+  },
+  "c4265028-c034-4260-9dff-4b7f92bb0c09": {
+    "id": "c4265028-c034-4260-9dff-4b7f92bb0c09",
+    "z": 14818,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-p2-6"
+  },
+  "449e2960-008a-4a24-a117-150797695a5d": {
+    "id": "449e2960-008a-4a24-a117-150797695a5d",
+    "x": 2,
+    "y": 2,
+    "z": 14827,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s3-1"
+  },
+  "a867d43a-a0f6-4e13-a462-941b23738d61": {
+    "id": "a867d43a-a0f6-4e13-a462-941b23738d61",
+    "x": 2,
+    "y": 2,
+    "z": 14740,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s4-2"
+  },
+  "b53a50c5-f9c9-4fff-a2e7-9b94c396ebb1": {
+    "id": "b53a50c5-f9c9-4fff-a2e7-9b94c396ebb1",
+    "x": 1423,
+    "y": 162,
+    "z": 26,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "9a47dd8f-5927-4036-9e9e-9185da3d822c": {
+    "id": "9a47dd8f-5927-4036-9e9e-9185da3d822c",
+    "x": 623,
+    "y": 891,
+    "z": 7410,
+    "type": "deck",
+    "cardTypes": {
+      "black": {
+        "label": "Black",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#666565",
+        "sortingOrder": 1
+      },
+      "white": {
+        "label": "White",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#dae0df",
+        "sortingOrder": 2
+      },
+      "red": {
+        "label": "Red",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#ed1b43",
+        "sortingOrder": 3
+      },
+      "orange": {
+        "label": "Orange",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#ff7b23",
+        "sortingOrder": 4
+      },
+      "peach": {
+        "label": "Peach",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#f2948c",
+        "sortingOrder": 5
+      },
+      "yellow": {
+        "label": "Yellow",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#ffce00",
+        "sortingOrder": 6
+      },
+      "green": {
+        "label": "Green",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#69d83a",
+        "sortingOrder": 7
+      },
+      "teal": {
+        "label": "Teal",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#2fd1cd",
+        "sortingOrder": 8
+      },
+      "blue": {
+        "label": "Blue",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#5894f4",
+        "sortingOrder": 9
+      },
+      "purple": {
+        "label": "Purple",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#9458f4",
+        "sortingOrder": 10
+      },
+      "pink": {
+        "label": "Pink",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#ff69b3",
+        "sortingOrder": 11
+      },
+      "brown": {
+        "label": "Brown",
+        "image": "/i/game-pieces/3D/Pin-3D.svg",
+        "imageColor": "#a8570e",
+        "sortingOrder": 12
+      }
+    },
+    "faceTemplates": [
+      {
+        "objects": [
+          {
+            "width": 34,
+            "height": 44,
+            "type": "image",
+            "color": "transparent",
+            "value": ""
+          },
+          {
+            "type": "image",
+            "x": 0,
+            "y": 0,
+            "color": "transparent",
+            "width": 34,
+            "height": 44,
+            "svgReplaces": {
+              "#primaryColor": "imageColor",
+              "#labelColor": "imageLabelColor"
+            },
+            "dynamicProperties": {
+              "value": "image"
+            }
+          }
+        ],
+        "border": false,
+        "radius": false
+      }
+    ],
+    "cardDefaults": {
+      "width": 34,
+      "height": 44
+    },
+    "parent": "track-pawn-space0"
+  },
+  "7e6c5b28-75fe-4753-829a-0228c9e93450": {
+    "id": "7e6c5b28-75fe-4753-829a-0228c9e93450",
+    "x": 850,
+    "z": 23,
+    "type": "label",
+    "text": "x2",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center",
+        "color": "white"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "y": 10,
+    "width": 50
+  },
+  "89cf56bb-1870-492b-ba94-cfe99545bb42": {
+    "id": "89cf56bb-1870-492b-ba94-cfe99545bb42",
+    "x": 2,
+    "y": 2,
+    "z": 14837,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s2-6"
+  },
+  "24dc4e40-7def-4348-9785-977aba8f8962": {
+    "id": "24dc4e40-7def-4348-9785-977aba8f8962",
+    "x": 1110,
+    "y": 429,
+    "z": 31,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "a655570e-ca33-4ffb-918c-a4a27f939a75": {
+    "id": "a655570e-ca33-4ffb-918c-a4a27f939a75",
+    "x": 1373,
+    "y": 158,
+    "z": 15,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "ce528b90-cb10-4636-83c2-8f6538d08ffb": {
+    "id": "ce528b90-cb10-4636-83c2-8f6538d08ffb",
+    "x": 2,
+    "y": 2,
+    "z": 14876,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s5-6"
+  },
+  "697ef43c-7af3-4016-b20c-5371e85029c8": {
+    "id": "697ef43c-7af3-4016-b20c-5371e85029c8",
+    "x": 1050,
+    "y": 710,
+    "z": 19,
+    "type": "label",
+    "text": "10",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "a80d07c5-01eb-4a2d-8e18-ca688ef11d32": {
+    "id": "a80d07c5-01eb-4a2d-8e18-ca688ef11d32",
+    "x": 2,
+    "y": 2,
+    "z": 14753,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s4-3"
+  },
+  "24092c9f-d7c7-436d-82a6-d1245a16af70": {
+    "id": "24092c9f-d7c7-436d-82a6-d1245a16af70",
+    "x": 2,
+    "y": 2,
+    "z": 14747,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d5-1"
+  },
+  "3b5494ff-6f13-4959-903f-e9ec3b1c570b": {
+    "id": "3b5494ff-6f13-4959-903f-e9ec3b1c570b",
+    "z": 14878,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s5-7"
+  },
+  "5e508555-1308-46e7-93d0-4d6b4cf6696a": {
+    "id": "5e508555-1308-46e7-93d0-4d6b4cf6696a",
+    "x": 650,
+    "y": 310,
+    "z": 16,
+    "type": "label",
+    "text": "16",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "491d6d28-85aa-4f92-bb69-18b07bd0de82": {
+    "id": "491d6d28-85aa-4f92-bb69-18b07bd0de82",
+    "x": 2,
+    "y": 2,
+    "z": 14786,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d5-2"
+  },
+  "cab5ca6c-2dae-4d49-9225-06a159c3bbe7": {
+    "id": "cab5ca6c-2dae-4d49-9225-06a159c3bbe7",
+    "x": 1110,
+    "y": 251,
+    "z": 30,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "0a8219ac-277f-40a6-8737-b6a99c4e0e5a": {
+    "id": "0a8219ac-277f-40a6-8737-b6a99c4e0e5a",
+    "x": 2,
+    "y": 2,
+    "z": 14863,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-d2-1"
+  },
+  "a606e5bc-e8c6-4836-b3fc-2722b4639f3e": {
+    "id": "a606e5bc-e8c6-4836-b3fc-2722b4639f3e",
+    "x": 1137,
+    "y": 891,
+    "z": 13,
+    "type": "button",
+    "text": "Setup",
+    "clickRoutine": [
+      {
+        "func": "INPUT",
+        "header": "Are you sure? This will reset the game to its initial state.",
+        "confirmButtonText": "Setup",
+        "fields": []
+      },
+      {
+        "func": "LABEL",
+        "label": [
+          "money-p1",
+          "money-p2",
+          "money-p3",
+          "money-p4"
+        ],
+        "value": 10
+      },
+      {
+        "func": "LABEL",
+        "label": [
+          "loans-p1",
+          "loans-p2",
+          "loans-p3",
+          "loans-p4"
+        ]
+      },
+      {
+        "func": "LABEL",
+        "label": [
+          "bid-p1",
+          "bid-p2",
+          "bid-p3",
+          "bid-p4"
+        ]
+      },
+      {
+        "func": "RECALL",
+        "holder": "token-holder-all"
+      },
+      {
+        "func": "SHUFFLE",
+        "holder": "token-holder-all"
+      },
+      {
+        "func": "MOVE",
+        "to": [
+          "450bc7da-7ec2-41b8-9fdb-d4a7dd9f62e7",
+          "83289530-31ac-4cfc-a03e-31eb898d950b",
+          "312fa806-b88c-42bb-9c48-8b12c09bf895",
+          "c093b98f-3c06-4bf8-b135-79255d612026",
+          "bb1fecbf-5e5c-4e91-8f99-b05bc7250868",
+          "b53a50c5-f9c9-4fff-a2e7-9b94c396ebb1",
+          "67faef96-1de3-4e13-ac69-7b045a1fd1c8",
+          "9f4873ef-09c0-4cd2-84f8-3db2a9aa9585",
+          "0b7d4783-cf83-41cc-9bc3-6cbd046498fe",
+          "b8e60607-637a-41ac-a889-c42fc6fe700e",
+          "a5bb4bed-c742-48d1-b48b-a1fae8b14f53",
+          "83f7906e-2f25-4e47-8810-22ac78c09264",
+          "56bfe11e-250f-4cb8-9cd3-52db3eeb9071",
+          "cab5ca6c-2dae-4d49-9225-06a159c3bbe7",
+          "24dc4e40-7def-4348-9785-977aba8f8962",
+          "c1059c60-2422-4e65-841b-736ebc6dad35",
+          "c9be2821-6f7e-4da0-a5ae-2da7cdbd3290",
+          "648a79af-0516-4304-90c1-c4e1727f895b"
+        ],
+        "fillTo": 4,
+        "from": "token-holder-all"
+      },
+      {
+        "func": "RECALL",
+        "holder": "track-pawn-space0"
+      }
+    ]
+  },
+  "42a9d139-0447-4a0d-a879-827690333f5a": {
+    "id": "42a9d139-0447-4a0d-a879-827690333f5a",
+    "z": 14788,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s2-1"
+  },
+  "c9be2821-6f7e-4da0-a5ae-2da7cdbd3290": {
+    "id": "c9be2821-6f7e-4da0-a5ae-2da7cdbd3290",
+    "x": 1424,
+    "y": 519,
+    "z": 33,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "dd05065d-448e-45bc-99e0-4459fb818fda": {
+    "id": "dd05065d-448e-45bc-99e0-4459fb818fda",
+    "z": 14742,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-d3-3"
+  },
+  "312fa806-b88c-42bb-9c48-8b12c09bf895": {
+    "id": "312fa806-b88c-42bb-9c48-8b12c09bf895",
+    "x": 1110,
+    "y": 341,
+    "z": 23,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "b9496b68-03b4-4c77-b44a-6d3d1a5c369a": {
+    "id": "b9496b68-03b4-4c77-b44a-6d3d1a5c369a",
+    "x": 2,
+    "y": 2,
+    "z": 14889,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d4-4"
+  },
+  "000e947d-393b-4d84-a5a0-ec2e88beaa61": {
+    "id": "000e947d-393b-4d84-a5a0-ec2e88beaa61",
+    "x": 2,
+    "y": 2,
+    "z": 14792,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d5-3"
+  },
+  "1b703e75-c7b4-483d-adb6-3d889686e787": {
+    "id": "1b703e75-c7b4-483d-adb6-3d889686e787",
+    "x": 2,
+    "y": 2,
+    "z": 14865,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s5-3"
+  },
+  "0a71bb74-40bc-438e-86d2-17334fe2e0e8": {
+    "id": "0a71bb74-40bc-438e-86d2-17334fe2e0e8",
+    "x": 2,
+    "y": 2,
+    "z": 14855,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s1-6"
+  },
+  "b8e60607-637a-41ac-a889-c42fc6fe700e": {
+    "id": "b8e60607-637a-41ac-a889-c42fc6fe700e",
+    "x": 1424,
+    "y": 788,
+    "z": 19,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "67faef96-1de3-4e13-ac69-7b045a1fd1c8": {
+    "id": "67faef96-1de3-4e13-ac69-7b045a1fd1c8",
+    "x": 1110,
+    "y": 162,
+    "z": 27,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "b8a08511-79ce-4d28-b8a8-a2559731e705": {
+    "id": "b8a08511-79ce-4d28-b8a8-a2559731e705",
+    "x": 2,
+    "y": 2,
+    "z": 14807,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d5-6"
+  },
+  "c1059c60-2422-4e65-841b-736ebc6dad35": {
+    "id": "c1059c60-2422-4e65-841b-736ebc6dad35",
+    "x": 1110,
+    "y": 698,
+    "z": 32,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "c470cc12-fdb0-4135-82ef-7f0f6aaba9ad": {
+    "id": "c470cc12-fdb0-4135-82ef-7f0f6aaba9ad",
+    "x": 2,
+    "y": 2,
+    "z": 14751,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d3-4"
+  },
+  "9ecda25a-1516-4be8-9fa7-0a348c741753label": {
+    "id": "9ecda25a-1516-4be8-9fa7-0a348c741753label",
+    "parent": "money-p4",
+    "movableInEdit": false,
+    "y": -28,
+    "type": "label",
+    "text": "Money",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count": {
+    "id": "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count",
+    "parent": "seat-p1",
+    "x": -40,
+    "y": 2,
+    "layer": 3,
+    "height": 38,
+    "width": 30,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "text": 0,
+    "css": "background: white; color: black;font-size:18px; border:1px solid lightgrey;display: flex;justify-content: center;align-items: center;",
+    "borderRadius": 4,
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "ownerGlobalUpdateRoutine": [
+      "var parent = ${PROPERTY parent}",
+      "var player = ${PROPERTY player OF $parent}",
+      {
+        "func": "SELECT",
+        "property": "owner",
+        "value": "${player}"
+      },
+      {
+        "func": "COUNT"
+      },
+      {
+        "func": "SET",
+        "collection": "thisButton",
+        "property": "text",
+        "value": "${COUNT}"
+      }
+    ]
+  },
+  "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count1": {
+    "id": "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count1",
+    "parent": "seat-p1",
+    "x": -40,
+    "y": 2,
+    "layer": 2,
+    "height": 38,
+    "width": 30,
+    "rotation": -6,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count2": {
+    "id": "ec6c13ed-00d2-4d8b-b6f3-e60f069b46d4count2",
+    "parent": "seat-p1",
+    "x": -40,
+    "y": 2,
+    "layer": 1,
+    "height": 38,
+    "width": 30,
+    "rotation": -12,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; border-radius: 4px; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "9697e705-7a42-48eb-8db3-67cd7fc4ecd6": {
+    "id": "9697e705-7a42-48eb-8db3-67cd7fc4ecd6",
+    "x": 2,
+    "y": 2,
+    "z": 14738,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s1-1"
+  },
+  "1c644481-d678-4124-b7fe-e74d33a4dc40": {
+    "id": "1c644481-d678-4124-b7fe-e74d33a4dc40",
+    "x": 1285,
+    "y": 696,
+    "z": 11,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "15a3d251-7ac9-4360-bbc8-21f69c82c636": {
+    "id": "15a3d251-7ac9-4360-bbc8-21f69c82c636",
+    "z": 14841,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s1-4"
+  },
+  "56bfe11e-250f-4cb8-9cd3-52db3eeb9071": {
+    "id": "56bfe11e-250f-4cb8-9cd3-52db3eeb9071",
+    "x": 1423,
+    "z": 29,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40,
+    "y": 341
+  },
+  "799d0706-141f-47ff-b6f4-6b90269cbcba": {
+    "id": "799d0706-141f-47ff-b6f4-6b90269cbcba",
+    "z": 14843,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s5-1"
+  },
+  "31c38392-4f8f-423d-8861-d06d6a7d4ec0": {
+    "id": "31c38392-4f8f-423d-8861-d06d6a7d4ec0",
+    "x": 1373,
+    "y": 605,
+    "z": 4,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "0d3b9057-317d-4597-97fe-8d6acce729b8": {
+    "id": "0d3b9057-317d-4597-97fe-8d6acce729b8",
+    "x": 2,
+    "y": 2,
+    "z": 14772,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d3-6"
+  },
+  "450b541b-f1a7-4a1f-8096-f7beb12ce228": {
+    "id": "450b541b-f1a7-4a1f-8096-f7beb12ce228",
+    "x": 2,
+    "y": 2,
+    "z": 14801,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d5-5"
+  },
+  "37ace9ec-7c0a-462f-a52f-098ae616c13b": {
+    "id": "37ace9ec-7c0a-462f-a52f-098ae616c13b",
+    "x": 2,
+    "y": 2,
+    "z": 14756,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s3-2"
+  },
+  "26fd0a09-f8b1-43c7-bb53-a5a70f9bddbd": {
+    "id": "26fd0a09-f8b1-43c7-bb53-a5a70f9bddbd",
+    "x": 2,
+    "y": 2,
+    "z": 14811,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-d5-4"
+  },
+  "22925d69-63a4-4ba0-8242-616a7e70c049": {
+    "id": "22925d69-63a4-4ba0-8242-616a7e70c049",
+    "x": 650,
+    "y": 510,
+    "z": 18,
+    "type": "label",
+    "text": "17",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "f053142d-2088-4fda-94dd-641bc61437b8": {
+    "id": "f053142d-2088-4fda-94dd-641bc61437b8",
+    "x": 2,
+    "y": 2,
+    "z": 14736,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-s4-1"
+  },
+  "46ecc625-7d15-4c9a-9b24-05c3765f165c": {
+    "id": "46ecc625-7d15-4c9a-9b24-05c3765f165c",
+    "x": 2,
+    "y": 2,
+    "z": 14859,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s5-2"
+  },
+  "20e8f534-1227-4be7-80b5-a8041488ea9e": {
+    "id": "20e8f534-1227-4be7-80b5-a8041488ea9e",
+    "x": 1373,
+    "y": 338,
+    "z": 2,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "9af46b87-e45c-4016-8991-737158d3686c": {
+    "id": "9af46b87-e45c-4016-8991-737158d3686c",
+    "x": 2,
+    "y": 2,
+    "z": 14760,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s2-4"
+  },
+  "eee08054-645a-4e62-a835-d4486f98220b": {
+    "id": "eee08054-645a-4e62-a835-d4486f98220b",
+    "x": 2,
+    "y": 2,
+    "z": 14766,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d3-5"
+  },
+  "a5bb4bed-c742-48d1-b48b-a1fae8b14f53": {
+    "id": "a5bb4bed-c742-48d1-b48b-a1fae8b14f53",
+    "x": 1424,
+    "y": 608,
+    "z": 20,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount": {
+    "id": "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount",
+    "parent": "seat-p2",
+    "x": -40,
+    "y": 2,
+    "layer": 3,
+    "height": 38,
+    "width": 30,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "text": 0,
+    "css": "background: white; color: black;font-size:18px; border:1px solid lightgrey;display: flex;justify-content: center;align-items: center;",
+    "borderRadius": 4,
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "ownerGlobalUpdateRoutine": [
+      "var parent = ${PROPERTY parent}",
+      "var player = ${PROPERTY player OF $parent}",
+      {
+        "func": "SELECT",
+        "property": "owner",
+        "value": "${player}"
+      },
+      {
+        "func": "COUNT"
+      },
+      {
+        "func": "SET",
+        "collection": "thisButton",
+        "property": "text",
+        "value": "${COUNT}"
+      }
+    ]
+  },
+  "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount1": {
+    "id": "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount1",
+    "parent": "seat-p2",
+    "x": -40,
+    "y": 2,
+    "layer": 2,
+    "height": 38,
+    "width": 30,
+    "rotation": -6,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount2": {
+    "id": "8fa5750c-99b8-4527-a78c-4c7b258fc92ecount2",
+    "parent": "seat-p2",
+    "x": -40,
+    "y": 2,
+    "layer": 1,
+    "height": 38,
+    "width": 30,
+    "rotation": -12,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; border-radius: 4px; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4
+  },
+  "3f5fc7ec-9702-4eb6-a15a-d31eb9b1a22e": {
+    "id": "3f5fc7ec-9702-4eb6-a15a-d31eb9b1a22e",
+    "x": 2,
+    "y": 2,
+    "z": 14762,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s3-4"
+  },
+  "9e564189-b8ed-49f0-a174-6ca136fee2f5": {
+    "id": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "x": 81,
+    "y": -19,
+    "z": 8569,
+    "type": "deck",
+    "cardTypes": {
+      "purple": {
+        "label": "Purple",
+        "image": "/i/game-pieces/3D/Marble-3D.svg",
+        "imageColor": "#9458f4",
+        "sortingOrder": 1
+      },
+      "yellow": {
+        "label": "Yellow",
+        "image": "/i/game-pieces/3D/Marble-3D.svg",
+        "imageColor": "#ffce00",
+        "sortingOrder": 2
+      },
+      "teal": {
+        "label": "Teal",
+        "image": "/i/game-pieces/3D/Marble-3D.svg",
+        "imageColor": "#2fd1cd",
+        "sortingOrder": 3
+      },
+      "red": {
+        "label": "Red",
+        "image": "/i/game-pieces/3D/Marble-3D.svg",
+        "imageColor": "#ed1b43",
+        "sortingOrder": 4
+      }
+    },
+    "faceTemplates": [
+      {
+        "objects": [
+          {
+            "width": 40,
+            "height": 40,
+            "type": "image",
+            "color": "transparent",
+            "value": ""
+          },
+          {
+            "type": "image",
+            "x": 0,
+            "y": 0,
+            "color": "transparent",
+            "width": 40,
+            "height": 40,
+            "svgReplaces": {
+              "#primaryColor": "imageColor",
+              "#labelColor": "imageLabelColor"
+            },
+            "dynamicProperties": {
+              "value": "image"
+            }
+          }
+        ],
+        "border": false,
+        "radius": false
+      }
+    ],
+    "cardDefaults": {
+      "width": 40,
+      "height": 40
+    },
+    "parent": "token-holder-all"
+  },
+  "d4de3a54-b2e4-4979-a68d-ebd556815630": {
+    "id": "d4de3a54-b2e4-4979-a68d-ebd556815630",
+    "x": 2,
+    "y": 2,
+    "z": 14780,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s4-6"
+  },
+  "04faa340-9d3d-43b2-b96b-852e6fce0a04": {
+    "id": "04faa340-9d3d-43b2-b96b-852e6fce0a04",
+    "x": 1285,
+    "y": 516,
+    "z": 13,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "5c25bff6-bf3d-4110-abfa-71b4b2afce06": {
+    "id": "5c25bff6-bf3d-4110-abfa-71b4b2afce06",
+    "x": 924,
+    "y": 919,
+    "z": 2,
+    "type": "label",
+    "text": "After setup, if any group has all four tokens the same colour, press Setup again.",
+    "css": {
+      "default": {
+        "line-height": "18px",
+        "font-size": "16px",
+        "font-weight": "normal",
+        "text-align": "left"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "width": 200,
+    "height": 63
+  },
+  "0b7d4783-cf83-41cc-9bc3-6cbd046498fe": {
+    "id": "0b7d4783-cf83-41cc-9bc3-6cbd046498fe",
+    "x": 1423,
+    "z": 35,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40,
+    "y": 429
+  },
+  "9278a82b-81d5-4cce-b956-5b99777c8b3a": {
+    "id": "9278a82b-81d5-4cce-b956-5b99777c8b3a",
+    "x": 1285,
+    "y": 248,
+    "z": 9,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "e8498bd1-d2dd-4816-b485-eabafb89c8e1": {
+    "id": "e8498bd1-d2dd-4816-b485-eabafb89c8e1",
+    "x": 1285,
+    "y": 426,
+    "z": 8,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "7729cf88-74aa-47d8-b280-3166b5affc50": {
+    "id": "7729cf88-74aa-47d8-b280-3166b5affc50",
+    "x": 1050,
+    "y": 310,
+    "z": 25,
+    "type": "label",
+    "text": "18",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "ed2e4a93-d8c0-4c22-8426-6aaa222ce671label": {
+    "id": "ed2e4a93-d8c0-4c22-8426-6aaa222ce671label",
+    "parent": "bid-p2",
+    "movableInEdit": false,
+    "y": -28,
+    "type": "label",
+    "text": "Bid",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "6fb39d73-85a7-43d1-a086-c27ca59de0b2": {
+    "id": "6fb39d73-85a7-43d1-a086-c27ca59de0b2",
+    "x": 850,
+    "y": 410,
+    "z": 22,
+    "type": "label",
+    "text": "21",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "8d34d507-31e0-4cd0-97af-cc0f62d27405": {
+    "id": "8d34d507-31e0-4cd0-97af-cc0f62d27405",
+    "x": 405,
+    "y": 25,
+    "z": 1,
+    "type": "label",
+    "text": "The first loan you take, gain 9 Money. The second loan you take, gain 8 Money, and so on. Each loan is worth -10 at the end of the game.",
+    "css": {
+      "default": {
+        "line-height": "18px",
+        "font-size": "16px",
+        "font-weight": "normal",
+        "text-align": "left"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "width": 300,
+    "height": 63
+  },
+  "bc42b9c5-047d-4863-9e01-112733b282ee": {
+    "id": "bc42b9c5-047d-4863-9e01-112733b282ee",
+    "z": 14861,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s3-6"
+  },
+  "1ec22acf-604b-4208-aea6-f903ee319769": {
+    "id": "1ec22acf-604b-4208-aea6-f903ee319769",
+    "x": 2,
+    "y": 2,
+    "z": 14732,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d3-2"
+  },
+  "83c11a00-34e7-43df-9750-7b03b4538272": {
+    "id": "83c11a00-34e7-43df-9750-7b03b4538272",
+    "x": 1329,
+    "y": 91,
+    "z": 16,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "eb4ec325-2f7a-4706-aad8-539b266cf7b8": {
+    "id": "eb4ec325-2f7a-4706-aad8-539b266cf7b8",
+    "x": 1050,
+    "y": 110,
+    "z": 20,
+    "type": "label",
+    "text": "10",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "2bb90a79-6afb-4305-90f7-8880f0bc22a2": {
+    "id": "2bb90a79-6afb-4305-90f7-8880f0bc22a2",
+    "x": 2,
+    "y": 2,
+    "z": 14730,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d3-1"
+  },
+  "9f4873ef-09c0-4cd2-84f8-3db2a9aa9585": {
+    "id": "9f4873ef-09c0-4cd2-84f8-3db2a9aa9585",
+    "x": 1267,
+    "y": 914,
+    "z": 121,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "c4f42ff5-726c-4491-aa6d-3ec81d5910ddlabel": {
+    "id": "c4f42ff5-726c-4491-aa6d-3ec81d5910ddlabel",
+    "parent": "money-p2",
+    "movableInEdit": false,
+    "y": -28,
+    "type": "label",
+    "text": "Money",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "22e8352d-a266-4fed-839f-105dd26ff43d": {
+    "id": "22e8352d-a266-4fed-839f-105dd26ff43d",
+    "x": 2,
+    "y": 2,
+    "z": 14820,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-p2-7"
+  },
+  "f8735bb1-a9e7-4c6d-8e93-93e0aace8b4d": {
+    "id": "f8735bb1-a9e7-4c6d-8e93-93e0aace8b4d",
+    "x": 2,
+    "y": 2,
+    "z": 14882,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d1-2"
+  },
+  "09e0398f-b3c2-488b-8566-c4e1426f04fa": {
+    "id": "09e0398f-b3c2-488b-8566-c4e1426f04fa",
+    "x": 2,
+    "y": 2,
+    "z": 14790,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s2-3"
+  },
+  "fec1c43c-974e-4c7a-acc8-1419a44bc292": {
+    "id": "fec1c43c-974e-4c7a-acc8-1419a44bc292",
+    "x": 2,
+    "y": 2,
+    "z": 14906,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d2-4"
+  },
+  "bf28c805-1f8a-4497-85d9-43690a8a48c2count": {
+    "id": "bf28c805-1f8a-4497-85d9-43690a8a48c2count",
+    "parent": "seat-p4",
+    "x": -40,
+    "y": 2,
+    "layer": 3,
+    "height": 38,
+    "width": 30,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "text": 0,
+    "css": "background: white; color: black;font-size:18px; border:1px solid lightgrey;display: flex;justify-content: center;align-items: center;",
+    "borderRadius": 4,
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "ownerGlobalUpdateRoutine": [
+      "var parent = ${PROPERTY parent}",
+      "var player = ${PROPERTY player OF $parent}",
+      {
+        "func": "SELECT",
+        "property": "owner",
+        "value": "${player}"
+      },
+      {
+        "func": "COUNT"
+      },
+      {
+        "func": "SET",
+        "collection": "thisButton",
+        "property": "text",
+        "value": "${COUNT}"
+      }
+    ],
+    "owner": []
+  },
+  "bf28c805-1f8a-4497-85d9-43690a8a48c2count1": {
+    "id": "bf28c805-1f8a-4497-85d9-43690a8a48c2count1",
+    "parent": "seat-p4",
+    "x": -40,
+    "y": 2,
+    "layer": 2,
+    "height": 38,
+    "width": 30,
+    "rotation": -6,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4,
+    "owner": []
+  },
+  "bf28c805-1f8a-4497-85d9-43690a8a48c2count2": {
+    "id": "bf28c805-1f8a-4497-85d9-43690a8a48c2count2",
+    "parent": "seat-p4",
+    "x": -40,
+    "y": 2,
+    "layer": 1,
+    "height": 38,
+    "width": 30,
+    "rotation": -12,
+    "movable": false,
+    "movableInEdit": false,
+    "TYPE": "count",
+    "css": "background: white; border-radius: 4px; color: black;font-size:16px; border:1px solid lightgrey;transform-origin:bottom left",
+    "borderRadius": 4,
+    "owner": []
+  },
+  "6ad4ab1d-5ea4-4934-a341-1ce5ef57b88b": {
+    "id": "6ad4ab1d-5ea4-4934-a341-1ce5ef57b88b",
+    "x": 2,
+    "y": 2,
+    "z": 14874,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-s5-5"
+  },
+  "bb1fecbf-5e5c-4e91-8f99-b05bc7250868": {
+    "id": "bb1fecbf-5e5c-4e91-8f99-b05bc7250868",
+    "x": 1424,
+    "y": 251,
+    "z": 25,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "f3a0543b-d81a-4b0a-b39e-a4bea0eecb29": {
+    "id": "f3a0543b-d81a-4b0a-b39e-a4bea0eecb29",
+    "z": 14770,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-s4-4"
+  },
+  "e58d646e-4385-4aac-a23d-6ad202e0a857": {
+    "id": "e58d646e-4385-4aac-a23d-6ad202e0a857",
+    "x": 2,
+    "y": 2,
+    "z": 14797,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-d3-7"
+  },
+  "ab2750e5-f60f-4264-b560-5c9542786255": {
+    "id": "ab2750e5-f60f-4264-b560-5c9542786255",
+    "x": 2,
+    "y": 2,
+    "z": 14835,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s3-3"
+  },
+  "de8bd1c8-552d-427e-a7d4-8c434e3a7d64": {
+    "id": "de8bd1c8-552d-427e-a7d4-8c434e3a7d64",
+    "x": 2,
+    "y": 2,
+    "z": 14869,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "parent": "cell-d1-1"
+  },
+  "d90ac773-08df-41fe-8b9c-31fe0b78c3a2": {
+    "id": "d90ac773-08df-41fe-8b9c-31fe0b78c3a2",
+    "x": 850,
+    "y": 610,
+    "z": 26,
+    "type": "label",
+    "text": "11",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "28cb1a17-cb3a-421f-bffd-2de70472f86a": {
+    "id": "28cb1a17-cb3a-421f-bffd-2de70472f86a",
+    "x": 1373,
+    "y": 695,
+    "z": 3,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "f6e7b6c3-698c-43c9-be61-66182a408d57": {
+    "id": "f6e7b6c3-698c-43c9-be61-66182a408d57",
+    "x": 2,
+    "y": 2,
+    "z": 14809,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d5-7"
+  },
+  "4666ae12-c78d-473f-bcd4-1e8ba79e079f": {
+    "id": "4666ae12-c78d-473f-bcd4-1e8ba79e079f",
+    "z": 14902,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "purple",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-d1-3"
+  },
+  "428d8b14-5b5a-4ddd-a75b-27f4e5b9f121": {
+    "id": "428d8b14-5b5a-4ddd-a75b-27f4e5b9f121",
+    "x": 1285,
+    "y": 158,
+    "z": 14,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "a8867acc-8b37-42ef-a590-b10e113f32af": {
+    "id": "a8867acc-8b37-42ef-a590-b10e113f32af",
+    "x": 1373,
+    "y": 248,
+    "z": 6,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "766dad75-35ec-4cc1-b5a5-99b6972ec84d": {
+    "id": "766dad75-35ec-4cc1-b5a5-99b6972ec84d",
+    "z": 14904,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "x": 2,
+    "y": 2,
+    "parent": "cell-d1-4"
+  },
+  "e81dd458-2ebb-491a-b550-b0d0b2cea450": {
+    "id": "e81dd458-2ebb-491a-b550-b0d0b2cea450",
+    "x": 2,
+    "y": 2,
+    "z": 14886,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s6-1"
+  },
+  "6c1a10bb-e343-4736-9491-562d05848440": {
+    "id": "6c1a10bb-e343-4736-9491-562d05848440",
+    "x": 1285,
+    "y": 606,
+    "z": 12,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "7adefe8c-c024-4707-b200-80f0b051a48c": {
+    "id": "7adefe8c-c024-4707-b200-80f0b051a48c",
+    "x": 2,
+    "y": 2,
+    "z": 14744,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-p2-2"
+  },
+  "8064eeb8-d728-4165-9363-f46aed13d1d5": {
+    "id": "8064eeb8-d728-4165-9363-f46aed13d1d5",
+    "x": 1373,
+    "y": 784,
+    "z": 17,
+    "type": "holder",
+    "width": 46,
+    "height": 56,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ],
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "inheritChildZ": true
+  },
+  "fa10f0bf-6f34-41dc-82d3-9812bf05cc5e": {
+    "id": "fa10f0bf-6f34-41dc-82d3-9812bf05cc5e",
+    "x": 2,
+    "y": 2,
+    "z": 14853,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-s1-7"
+  },
+  "d991c403-9187-42b8-9f85-71c98b9e45ec": {
+    "id": "d991c403-9187-42b8-9f85-71c98b9e45ec",
+    "x": 2,
+    "y": 2,
+    "z": 14782,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "teal",
+    "parent": "cell-s4-7"
+  },
+  "83289530-31ac-4cfc-a03e-31eb898d950b": {
+    "id": "83289530-31ac-4cfc-a03e-31eb898d950b",
+    "x": 1110,
+    "y": 608,
+    "z": 22,
+    "type": "holder",
+    "width": 170,
+    "height": 50,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "preventPiles": true,
+    "stackOffsetX": 40
+  },
+  "e09803ef-e808-44c0-aa44-1fd7b0418794": {
+    "id": "e09803ef-e808-44c0-aa44-1fd7b0418794",
+    "x": 2,
+    "y": 2,
+    "z": 14803,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "yellow",
+    "parent": "cell-d4-2"
+  },
+  "954148c1-830a-41e3-ad89-612c8c91518dlabel": {
+    "id": "954148c1-830a-41e3-ad89-612c8c91518dlabel",
+    "parent": "money-p3",
+    "movableInEdit": false,
+    "y": -28,
+    "type": "label",
+    "text": "Money",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "4741551e-1b0f-43ed-aa55-25d6023e1c25": {
+    "id": "4741551e-1b0f-43ed-aa55-25d6023e1c25",
+    "x": 2,
+    "y": 2,
+    "z": 14891,
+    "type": "card",
+    "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5",
+    "cardType": "red",
+    "parent": "cell-d2-3"
+  },
+  "seat-p1": {
+    "type": "seat",
+    "id": "seat-p1",
+    "x": 100,
+    "y": 30,
+    "width": 42,
+    "height": 42,
+    "borderRadius": "50%",
+    "z": 4,
+    "css": "box-sizing:border-box;border-width:5px;",
+    "display": "seatIndex",
+    "displayEmpty": "seatIndex",
+    "hideWhenUnused": true,
+    "playerChangeRoutine": [
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "type": "button"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "source": "LABEL",
+        "property": "TYPE",
+        "value": "label",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "COUNT"
+      },
+      {
+        "func": "SELECT",
+        "source": "COUNT",
+        "property": "TYPE",
+        "value": "count",
+        "collection": "COUNT"
+      },
+      {
+        "func": "IF",
+        "condition": "${value}",
+        "thenRoutine": [
+          {
+            "func": "SET",
+            "property": "owner",
+            "value": []
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "${playerName}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner"
+          }
+        ],
+        "elseRoutine": [
+          {
+            "func": "SET",
+            "property": "owner"
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "Player ${PROPERTY index}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner",
+            "value": []
+          }
+        ]
+      }
+    ],
+    "color": "#9929bd",
+    "colorEmpty": "#9458f4",
+    "score": 0,
+    "player": "Darryl"
+  },
+  "seat-label-p1": {
+    "id": "seat-label-p1",
+    "parent": "seat-p1",
+    "x": -71,
+    "y": 36,
+    "width": 180,
+    "height": 44,
+    "borderRadius": "36%",
+    "layer": 0,
+    "movable": false,
+    "movableInEdit": false,
+    "css": "background:white;border:1px solid lightgrey;font-size:18px;display: flex;justify-content: center;align-items: center;",
+    "text": "Darryl",
+    "TYPE": "label",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ]
+  },
+  "seat-p2": {
+    "type": "seat",
+    "id": "seat-p2",
+    "index": 2,
+    "x": 100,
+    "y": 280,
+    "width": 42,
+    "height": 42,
+    "borderRadius": "50%",
+    "z": 3,
+    "css": "box-sizing:border-box;border-width:5px;",
+    "display": "seatIndex",
+    "displayEmpty": "seatIndex",
+    "hideWhenUnused": true,
+    "playerChangeRoutine": [
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "type": "button"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "source": "LABEL",
+        "property": "TYPE",
+        "value": "label",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "COUNT"
+      },
+      {
+        "func": "SELECT",
+        "source": "COUNT",
+        "property": "TYPE",
+        "value": "count",
+        "collection": "COUNT"
+      },
+      {
+        "func": "IF",
+        "condition": "${value}",
+        "thenRoutine": [
+          {
+            "func": "SET",
+            "property": "owner",
+            "value": []
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "${playerName}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner"
+          }
+        ],
+        "elseRoutine": [
+          {
+            "func": "SET",
+            "property": "owner"
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "Player ${PROPERTY index}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner",
+            "value": []
+          }
+        ]
+      }
+    ],
+    "color": "#b70404",
+    "colorEmpty": "#ffce00",
+    "score": 0,
+    "player": "Vyntoo"
+  },
+  "seat-p3": {
+    "type": "seat",
+    "id": "seat-p3",
+    "index": 3,
+    "x": 100,
+    "y": 530,
+    "width": 42,
+    "height": 42,
+    "borderRadius": "50%",
+    "z": 16,
+    "css": "box-sizing:border-box;border-width:5px;",
+    "display": "seatIndex",
+    "displayEmpty": "seatIndex",
+    "hideWhenUnused": true,
+    "playerChangeRoutine": [
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "type": "button"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "source": "LABEL",
+        "property": "TYPE",
+        "value": "label",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "COUNT"
+      },
+      {
+        "func": "SELECT",
+        "source": "COUNT",
+        "property": "TYPE",
+        "value": "count",
+        "collection": "COUNT"
+      },
+      {
+        "func": "IF",
+        "condition": "${value}",
+        "thenRoutine": [
+          {
+            "func": "SET",
+            "property": "owner",
+            "value": []
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "${playerName}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner"
+          }
+        ],
+        "elseRoutine": [
+          {
+            "func": "SET",
+            "property": "owner"
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "Player ${PROPERTY index}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner",
+            "value": []
+          }
+        ]
+      }
+    ],
+    "color": "#05ecf0",
+    "colorEmpty": "#2fd1cd",
+    "score": 0,
+    "player": "Tobias / Tobl"
+  },
+  "seat-p4": {
+    "type": "seat",
+    "id": "seat-p4",
+    "index": 4,
+    "x": 100,
+    "y": 780,
+    "width": 42,
+    "height": 42,
+    "borderRadius": "50%",
+    "z": 2,
+    "css": "box-sizing:border-box;border-width:5px;",
+    "display": "seatIndex",
+    "displayEmpty": "seatIndex",
+    "hideWhenUnused": true,
+    "playerChangeRoutine": [
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "type": "button"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "source": "LABEL",
+        "property": "TYPE",
+        "value": "label",
+        "collection": "LABEL"
+      },
+      {
+        "func": "SELECT",
+        "value": "${PROPERTY id}",
+        "collection": "COUNT"
+      },
+      {
+        "func": "SELECT",
+        "source": "COUNT",
+        "property": "TYPE",
+        "value": "count",
+        "collection": "COUNT"
+      },
+      {
+        "func": "IF",
+        "condition": "${value}",
+        "thenRoutine": [
+          {
+            "func": "SET",
+            "property": "owner",
+            "value": []
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "${playerName}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner"
+          }
+        ],
+        "elseRoutine": [
+          {
+            "func": "SET",
+            "property": "owner"
+          },
+          {
+            "func": "SET",
+            "collection": "LABEL",
+            "property": "text",
+            "value": "Player ${PROPERTY index}"
+          },
+          {
+            "func": "SET",
+            "collection": "COUNT",
+            "property": "owner",
+            "value": []
+          }
+        ]
+      }
+    ],
+    "color": "#ed1b43",
+    "colorEmpty": "#ed1b43",
+    "score": 0
+  },
+  "seat-label-p2": {
+    "id": "seat-label-p2",
+    "parent": "seat-p2",
+    "x": -71,
+    "y": 36,
+    "width": 180,
+    "height": 44,
+    "borderRadius": "36%",
+    "layer": 0,
+    "movable": false,
+    "movableInEdit": false,
+    "css": "background:white;border:1px solid lightgrey;font-size:18px;display: flex;justify-content: center;align-items: center;",
+    "text": "Vyntoo",
+    "TYPE": "label",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ]
+  },
+  "seat-label-p3": {
+    "id": "seat-label-p3",
+    "parent": "seat-p3",
+    "x": -71,
+    "y": 36,
+    "width": 180,
+    "height": 44,
+    "borderRadius": "36%",
+    "layer": 0,
+    "movable": false,
+    "movableInEdit": false,
+    "css": "background:white;border:1px solid lightgrey;font-size:18px;display: flex;justify-content: center;align-items: center;",
+    "text": "Tobias / Tobl",
+    "TYPE": "label",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ]
+  },
+  "seat-label-p4": {
+    "id": "seat-label-p4",
+    "parent": "seat-p4",
+    "x": -71,
+    "y": 36,
+    "width": 180,
+    "height": 44,
+    "borderRadius": "36%",
+    "layer": 0,
+    "movable": false,
+    "movableInEdit": false,
+    "css": "background:white;border:1px solid lightgrey;font-size:18px;display: flex;justify-content: center;align-items: center;",
+    "text": "Player 4",
+    "TYPE": "label",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ]
+  },
+  "money-p1": {
+    "type": "label",
+    "id": "money-p1",
+    "x": 50,
+    "y": 175,
+    "width": 140,
+    "height": 44,
+    "z": 31,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p1",
+    "text": 14
+  },
+  "money-p2": {
+    "type": "label",
+    "id": "money-p2",
+    "x": 50,
+    "y": 425,
+    "width": 140,
+    "height": 44,
+    "z": 10,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p2",
+    "text": 4
+  },
+  "money-p3": {
+    "type": "label",
+    "id": "money-p3",
+    "y": 675,
+    "width": 140,
+    "height": 44,
+    "z": 7,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p3",
+    "text": 5,
+    "x": 50
+  },
+  "money-p4": {
+    "type": "label",
+    "id": "money-p4",
+    "x": 50,
+    "y": 925,
+    "width": 140,
+    "height": 44,
+    "z": 3,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p4",
+    "text": 10
+  },
+  "seat-p1-sit": {
+    "type": "button",
+    "id": "seat-p1-sit",
+    "parent": "seat-p1",
+    "x": -23.5,
+    "y": 74,
+    "width": 85,
+    "height": 28,
+    "borderRadius": 4,
+    "layer": 1,
+    "movableInEdit": false,
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey",
+    "text": "Sit Here",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "owner": []
+  },
+  "seat-p2-sit": {
+    "type": "button",
+    "id": "seat-p2-sit",
+    "parent": "seat-p2",
+    "x": -23.5,
+    "y": 74,
+    "width": 85,
+    "height": 28,
+    "borderRadius": 4,
+    "layer": 1,
+    "movableInEdit": false,
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey",
+    "text": "Sit Here",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "owner": []
+  },
+  "seat-p3-sit": {
+    "type": "button",
+    "id": "seat-p3-sit",
+    "parent": "seat-p3",
+    "x": -25,
+    "y": 71,
+    "width": 85,
+    "height": 28,
+    "borderRadius": 4,
+    "layer": 1,
+    "movableInEdit": false,
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey",
+    "text": "Sit Here",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ],
+    "owner": []
+  },
+  "seat-p4-sit": {
+    "type": "button",
+    "id": "seat-p4-sit",
+    "parent": "seat-p4",
+    "x": -23.5,
+    "y": 74,
+    "width": 85,
+    "height": 28,
+    "borderRadius": 4,
+    "layer": 1,
+    "movableInEdit": false,
+    "css": "background: white; color: black;font-size:16px; border:1px solid lightgrey",
+    "text": "Sit Here",
+    "clickRoutine": [
+      {
+        "func": "SELECT",
+        "property": "id",
+        "value": "${PROPERTY parent}"
+      },
+      {
+        "func": "CLICK"
+      }
+    ]
+  },
+  "money-p4-inc": {
+    "type": "button",
+    "id": "money-p4-inc",
+    "parent": "money-p4",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p4",
+        "mode": "inc",
+        "value": 1
+      }
+    ]
+  },
+  "money-p4-dec": {
+    "type": "button",
+    "id": "money-p4-dec",
+    "parent": "money-p4",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p4",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "bid-p4": {
+    "type": "label",
+    "id": "bid-p4",
+    "x": 200,
+    "y": 925,
+    "width": 140,
+    "height": 44,
+    "z": 5,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p4",
+    "text": 0
+  },
+  "bid-p4-inc": {
+    "type": "button",
+    "id": "bid-p4-inc",
+    "parent": "bid-p4",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "inheritFrom": "bid-p1-inc",
+    "bidCounter": "bid-p4",
+    "moneyCounter": "money-p4"
+  },
+  "bid-p4-dec": {
+    "type": "button",
+    "id": "bid-p4-dec",
+    "parent": "bid-p4",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "bid-p4",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "loans-p4": {
+    "type": "label",
+    "id": "loans-p4",
+    "y": 825,
+    "width": 40,
+    "height": 40,
+    "z": 85,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p4",
+    "text": 0,
+    "x": 250
+  },
+  "loans-p3": {
+    "type": "label",
+    "id": "loans-p3",
+    "y": 575,
+    "width": 40,
+    "height": 40,
+    "z": 6,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p3",
+    "text": 7,
+    "x": 250
+  },
+  "loans-p2": {
+    "type": "label",
+    "id": "loans-p2",
+    "y": 325,
+    "width": 40,
+    "height": 40,
+    "z": 83,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p2",
+    "text": 5,
+    "x": 250
+  },
+  "loans-p2-inc": {
+    "type": "button",
+    "id": "loans-p2-inc",
+    "x": 60,
+    "y": -10,
+    "width": 80,
+    "height": 50,
+    "movableInEdit": true,
+    "movable": false,
+    "inheritFrom": "loans-p1-inc",
+    "text": "Take Loan",
+    "loanCounter": "loans-p2",
+    "moneyCounter": "money-p2",
+    "parent": "loans-p2"
+  },
+  "loans-p1": {
+    "type": "label",
+    "id": "loans-p1",
+    "y": 75,
+    "width": 40,
+    "height": 40,
+    "z": 55,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p1",
+    "x": 250,
+    "text": 4
+  },
+  "loans-p1-inc": {
+    "type": "button",
+    "id": "loans-p1-inc",
+    "x": 60,
+    "height": 50,
+    "clickRoutine": [
+      "var loanCounter = ${PROPERTY loanCounter}",
+      "var newLoanInc = ${PROPERTY text OF $loanCounter} + 1",
+      "var newLoanValue = min ${newLoanInc} 9",
+      {
+        "func": "LABEL",
+        "label": "${PROPERTY loanCounter}",
+        "value": "${newLoanValue}"
+      },
+      "var moneyCounter = ${PROPERTY moneyCounter}",
+      "var newMoneyValue = ${PROPERTY text OF $moneyCounter} + 10 - ${newLoanInc}",
+      {
+        "func": "LABEL",
+        "label": "${PROPERTY moneyCounter}",
+        "value": "${newMoneyValue}"
+      }
+    ],
+    "loanCounter": "loans-p1",
+    "moneyCounter": "money-p1",
+    "parent": "loans-p1",
+    "text": "Take Loan",
+    "css": {
+      "font-size": "18px"
+    },
+    "y": -10
+  },
+  "money-p1-inc": {
+    "type": "button",
+    "id": "money-p1-inc",
+    "parent": "money-p1",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p1",
+        "mode": "inc",
+        "value": 1
+      }
+    ]
+  },
+  "money-p1-dec": {
+    "type": "button",
+    "id": "money-p1-dec",
+    "parent": "money-p1",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p1",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "money-p2-dec": {
+    "type": "button",
+    "id": "money-p2-dec",
+    "parent": "money-p2",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p2",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "money-p2-inc": {
+    "type": "button",
+    "id": "money-p2-inc",
+    "parent": "money-p2",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p2",
+        "mode": "inc",
+        "value": 1
+      }
+    ]
+  },
+  "money-p3-dec": {
+    "type": "button",
+    "id": "money-p3-dec",
+    "parent": "money-p3",
+    "x": 4,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p3",
+        "mode": "inc",
+        "value": -1
+      }
+    ],
+    "y": -2
+  },
+  "money-p3-inc": {
+    "type": "button",
+    "id": "money-p3-inc",
+    "parent": "money-p3",
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "money-p3",
+        "mode": "inc",
+        "value": 1
+      }
+    ],
+    "y": -2,
+    "x": 100
+  },
+  "bid-p1-dec": {
+    "type": "button",
+    "id": "bid-p1-dec",
+    "parent": "bid-p1",
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "bid-p1",
+        "mode": "inc",
+        "value": -1
+      }
+    ],
+    "x": 4,
+    "y": -2
+  },
+  "bid-p1": {
+    "type": "label",
+    "id": "bid-p1",
+    "x": 200,
+    "y": 175,
+    "width": 140,
+    "height": 44,
+    "z": 12,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p1",
+    "text": 0
+  },
+  "bid-p1-inc": {
+    "type": "button",
+    "id": "bid-p1-inc",
+    "parent": "bid-p1",
+    "x": 100,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "clickRoutine": [
+      "var bidCounter = ${PROPERTY bidCounter}",
+      "var moneyCounter = ${PROPERTY moneyCounter}",
+      "var newBidInc = ${PROPERTY text OF $bidCounter} + 1",
+      "var newBidValue = min ${newBidInc} ${PROPERTY text OF $moneyCounter}",
+      {
+        "func": "LABEL",
+        "label": "${PROPERTY bidCounter}",
+        "value": "${newBidValue}"
+      }
+    ],
+    "y": -2,
+    "moneyCounter": "money-p1",
+    "bidCounter": "bid-p1"
+  },
+  "bid-p2-dec": {
+    "type": "button",
+    "id": "bid-p2-dec",
+    "parent": "bid-p2",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "bid-p2",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "bid-p2": {
+    "type": "label",
+    "id": "bid-p2",
+    "x": 200,
+    "y": 425,
+    "width": 140,
+    "height": 44,
+    "z": 14,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p2",
+    "text": 0
+  },
+  "bid-p2-inc": {
+    "type": "button",
+    "id": "bid-p2-inc",
+    "parent": "bid-p2",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "movable": false,
+    "inheritFrom": "bid-p1-inc",
+    "bidCounter": "bid-p2",
+    "moneyCounter": "money-p2"
+  },
+  "bid-p3": {
+    "type": "label",
+    "id": "bid-p3",
+    "x": 200,
+    "y": 675,
+    "width": 140,
+    "height": 44,
+    "z": 8,
+    "css": "font-size: 30px;",
+    "editable": true,
+    "linkedToSeat": "seat-p3",
+    "text": 0
+  },
+  "bid-p3-inc": {
+    "type": "button",
+    "id": "bid-p3-inc",
+    "parent": "bid-p3",
+    "x": 100,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "+",
+    "inheritFrom": "bid-p1-inc",
+    "bidCounter": "bid-p3",
+    "moneyCounter": "money-p3"
+  },
+  "bid-p3-dec": {
+    "type": "button",
+    "id": "bid-p3-dec",
+    "parent": "bid-p3",
+    "x": 4,
+    "y": -2,
+    "width": 36,
+    "height": 36,
+    "movableInEdit": false,
+    "text": "-",
+    "clickRoutine": [
+      {
+        "func": "LABEL",
+        "label": "bid-p3",
+        "mode": "inc",
+        "value": -1
+      }
+    ]
+  },
+  "die1": {
+    "type": "dice",
+    "id": "die1",
+    "x": 4,
+    "z": 84,
+    "faces": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "rollCount": 55,
+    "shape3d": true,
+    "movable": true,
+    "y": 4,
+    "activeFace": 4,
+    "parent": "holder-die-p3"
+  },
+  "track-pawn-space0": {
+    "type": "holder",
+    "id": "track-pawn-space0",
+    "x": 1329,
+    "y": 849,
+    "width": 46,
+    "height": 56,
+    "z": 18,
+    "inheritChildZ": true,
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "dropTarget": [
+      {
+        "deck": "9a47dd8f-5927-4036-9e9e-9185da3d822c"
+      }
+    ]
+  },
+  "token-holder-all": {
+    "type": "holder",
+    "id": "token-holder-all",
+    "x": 211,
+    "y": -99,
+    "width": 52,
+    "height": 52,
+    "z": 36,
+    "inheritChildZ": true,
+    "dropOffsetX": 6,
+    "dropOffsetY": 6,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "7e6c5b28-75fe-4753-829a-0228c9e93451": {
+    "id": "7e6c5b28-75fe-4753-829a-0228c9e93451",
+    "x": 850,
+    "z": 23,
+    "type": "label",
+    "text": "x2",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center",
+        "color": "white"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "y": 810,
+    "width": 50
+  },
+  "30a5ebf8-f468-4b89-95ef-d009b887800e": {
+    "id": "30a5ebf8-f468-4b89-95ef-d009b887800e",
+    "x": 650,
+    "y": 110,
+    "z": 17,
+    "type": "label",
+    "text": "9",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "d90ac773-08df-41fe-8b9c-31fe0b78c3a3": {
+    "id": "d90ac773-08df-41fe-8b9c-31fe0b78c3a3",
+    "x": 850,
+    "y": 210,
+    "z": 26,
+    "type": "label",
+    "text": "11",
+    "css": {
+      "default": {
+        "line-height": "26px",
+        "font-size": "26px",
+        "font-weight": "bold",
+        "text-align": "center"
+      },
+      " textarea": {
+        "letter-spacing": "-1px"
+      }
+    },
+    "height": 30,
+    "width": 50
+  },
+  "1ssu": {
+    "type": "label",
+    "x": 1286,
+    "y": 118,
+    "z": 79,
+    "id": "1ssu",
+    "text": "⬈",
+    "css": "font-size: 35px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "2ssu": {
+    "type": "label",
+    "x": 1377,
+    "y": 118,
+    "z": 79,
+    "id": "2ssu",
+    "text": "⬊",
+    "css": "font-size: 35px; text-align:center",
+    "width": 40,
+    "height": 40
+  },
+  "3ssu": {
+    "type": "label",
+    "x": 1287,
+    "y": 836,
+    "z": 79,
+    "id": "3ssu",
+    "text": "⬉",
+    "css": "font-size: 35px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "4ssu": {
+    "type": "label",
+    "x": 1380,
+    "y": 836,
+    "z": 79,
+    "id": "4ssu",
+    "text": "⬋",
+    "css": "font-size: 35px; text-align:center",
+    "width": 40,
+    "height": 40
+  },
+  "5ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 221,
+    "z": 79,
+    "id": "5ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "6ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 400,
+    "z": 79,
+    "id": "6ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "7ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 489,
+    "z": 79,
+    "id": "7ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "8ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 578,
+    "z": 79,
+    "id": "8ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "9ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 668,
+    "z": 79,
+    "id": "9ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "10ssu": {
+    "type": "label",
+    "x": 1279,
+    "y": 757,
+    "z": 79,
+    "id": "10ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "11ssu": {
+    "type": "label",
+    "x": 1278,
+    "y": 310,
+    "z": 79,
+    "id": "11ssu",
+    "text": "⬆︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "12ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 221,
+    "z": 79,
+    "id": "12ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "13ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 310,
+    "z": 79,
+    "id": "13ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "14ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 400,
+    "z": 79,
+    "id": "14ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "15ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 489,
+    "z": 79,
+    "id": "15ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "16ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 578,
+    "z": 79,
+    "id": "16ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "17ssu": {
+    "type": "label",
+    "x": 1385,
+    "y": 668,
+    "z": 79,
+    "id": "17ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "18ssu": {
+    "type": "label",
+    "x": 1384,
+    "y": 757,
+    "z": 79,
+    "id": "18ssu",
+    "text": "⬇︎",
+    "css": "font-size: 20px; text-align:center",
+    "height": 40,
+    "width": 40
+  },
+  "button-p1-pay": {
+    "type": "button",
+    "id": "button-p1-pay",
+    "x": 350,
+    "y": 150,
+    "width": 45,
+    "height": 60,
+    "z": 17,
+    "text": "Pay Bid",
+    "bidCounter": "bid-p1",
+    "moneyCounter": "money-p1",
+    "clickRoutine": [
+      "var bidCounter = ${PROPERTY bidCounter}",
+      {
+        "func": "LABEL",
+        "label": "${PROPERTY moneyCounter}",
+        "mode": "dec",
+        "value": "${PROPERTY text OF $bidCounter}"
+      },
+      {
+        "func": "LABEL",
+        "label": "${PROPERTY bidCounter}",
+        "value": 0
+      }
+    ],
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "button-p2-pay": {
+    "type": "button",
+    "id": "button-p2-pay",
+    "x": 350,
+    "y": 400,
+    "width": 45,
+    "height": 60,
+    "z": 17,
+    "bidCounter": "bid-p2",
+    "moneyCounter": "money-p2",
+    "inheritFrom": "button-p1-pay",
+    "movable": false,
+    "movableInEdit": true,
+    "text": "Pay Bid",
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "button-p3-pay": {
+    "type": "button",
+    "id": "button-p3-pay",
+    "x": 350,
+    "y": 650,
+    "width": 45,
+    "height": 60,
+    "z": 19,
+    "bidCounter": "bid-p3",
+    "moneyCounter": "money-p3",
+    "inheritFrom": "button-p1-pay",
+    "movable": false,
+    "movableInEdit": true,
+    "text": "Pay Bid",
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "button-p4-pay": {
+    "type": "button",
+    "id": "button-p4-pay",
+    "x": 350,
+    "y": 900,
+    "width": 45,
+    "height": 60,
+    "z": 18,
+    "text": "Pay Bid",
+    "bidCounter": "bid-p4",
+    "moneyCounter": "money-p4",
+    "inheritFrom": "button-p1-pay",
+    "movable": false,
+    "movableInEdit": true,
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "loans-p3-inc": {
+    "type": "button",
+    "id": "loans-p3-inc",
+    "parent": "loans-p3",
+    "x": 60,
+    "y": -10,
+    "width": 80,
+    "height": 50,
+    "movableInEdit": false,
+    "movable": false,
+    "inheritFrom": "loans-p1-inc",
+    "text": "Take Loan",
+    "loanCounter": "loans-p3",
+    "moneyCounter": "money-p3"
+  },
+  "loans-p4-inc": {
+    "type": "button",
+    "id": "loans-p4-inc",
+    "parent": "loans-p4",
+    "x": 60,
+    "y": -10,
+    "width": 80,
+    "height": 50,
+    "movableInEdit": true,
+    "movable": false,
+    "inheritFrom": "loans-p1-inc",
+    "text": "Take Loan",
+    "loanCounter": "loans-p4",
+    "moneyCounter": "money-p4"
+  },
+  "loans-p1-label": {
+    "type": "label",
+    "id": "loans-p1-label",
+    "parent": "loans-p1",
+    "x": -30,
+    "y": -25,
+    "movableInEdit": false,
+    "text": "Loans",
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "loans-p2-label": {
+    "type": "label",
+    "id": "loans-p2-label",
+    "parent": "loans-p2",
+    "movableInEdit": false,
+    "text": "Loans",
+    "x": -30,
+    "y": -25,
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "loans-p3-label": {
+    "type": "label",
+    "id": "loans-p3-label",
+    "parent": "loans-p3",
+    "x": -30,
+    "y": -25,
+    "movableInEdit": false,
+    "text": "Loans",
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "loans-p4-label": {
+    "type": "label",
+    "id": "loans-p4-label",
+    "parent": "loans-p4",
+    "x": -30,
+    "y": -25,
+    "movableInEdit": false,
+    "text": "Loans",
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "bid-p1-label": {
+    "type": "label",
+    "id": "bid-p1-label",
+    "parent": "bid-p1",
+    "y": -28,
+    "movableInEdit": false,
+    "text": "Bid",
+    "x": 20,
+    "css": {
+      "font-size": "18px"
+    }
+  },
+  "bid-p3-label": {
+    "type": "label",
+    "id": "bid-p3-label",
+    "parent": "bid-p3",
+    "y": -28,
+    "movableInEdit": false,
+    "text": "Bid",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "bid-p4-label": {
+    "type": "label",
+    "id": "bid-p4-label",
+    "parent": "bid-p4",
+    "y": -28,
+    "movableInEdit": false,
+    "text": "Bid",
+    "css": {
+      "font-size": "18px"
+    },
+    "x": 20
+  },
+  "cell-s1-4": {
+    "type": "holder",
+    "id": "cell-s1-4",
+    "x": 575,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 37,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s1-1": {
+    "type": "holder",
+    "id": "cell-s1-1",
+    "x": 550,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 40,
+    "inheritChildZ": true,
+    "dropOffsetX": 2,
+    "dropOffsetY": 2,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-s1-2": {
+    "type": "holder",
+    "id": "cell-s1-2",
+    "x": 600,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 43,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-s1-3": {
+    "type": "holder",
+    "id": "cell-s1-3",
+    "x": 525,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 39,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s1-5": {
+    "type": "holder",
+    "id": "cell-s1-5",
+    "x": 625,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 38,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-s1-6": {
+    "type": "holder",
+    "id": "cell-s1-6",
+    "x": 550,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 41,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s1-7": {
+    "type": "holder",
+    "id": "cell-s1-7",
+    "x": 600,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 42,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-d1-1": {
+    "type": "holder",
+    "id": "cell-d1-1",
+    "x": 550,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 110,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-d1-2": {
+    "type": "holder",
+    "id": "cell-d1-2",
+    "x": 600,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 111,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d1-3": {
+    "type": "holder",
+    "id": "cell-d1-3",
+    "x": 525,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 109,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d1-4": {
+    "type": "holder",
+    "id": "cell-d1-4",
+    "x": 575,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 107,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d1-5": {
+    "type": "holder",
+    "id": "cell-d1-5",
+    "x": 625,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 108,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d1-6": {
+    "type": "holder",
+    "id": "cell-d1-6",
+    "x": 550,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 112,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d1-7": {
+    "type": "holder",
+    "id": "cell-d1-7",
+    "x": 600,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 113,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d1-1"
+  },
+  "cell-d2-1": {
+    "type": "holder",
+    "id": "cell-d2-1",
+    "x": 550,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 90,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-s4-1": {
+    "type": "holder",
+    "id": "cell-s4-1",
+    "x": 550,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 117,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "cell-s2-1": {
+    "type": "holder",
+    "id": "cell-s2-1",
+    "x": 755,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 56,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-p1-1": {
+    "type": "holder",
+    "id": "cell-p1-1",
+    "x": 755,
+    "y": 30,
+    "width": 44,
+    "height": 44,
+    "z": 51,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-d3-1": {
+    "type": "holder",
+    "id": "cell-d3-1",
+    "x": 755,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 60,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s5-1": {
+    "type": "holder",
+    "id": "cell-s5-1",
+    "x": 755,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 75,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-p2-1": {
+    "type": "holder",
+    "id": "cell-p2-1",
+    "x": 755,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 79,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s6-1": {
+    "type": "holder",
+    "id": "cell-s6-1",
+    "x": 955,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 125,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-d5-1": {
+    "type": "holder",
+    "id": "cell-d5-1",
+    "x": 955,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 95,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-d4-1": {
+    "type": "holder",
+    "id": "cell-d4-1",
+    "x": 955,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 103,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-s3-1": {
+    "type": "holder",
+    "id": "cell-s3-1",
+    "x": 955,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 46,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-s1-1"
+  },
+  "cell-d2-2": {
+    "type": "holder",
+    "id": "cell-d2-2",
+    "x": 600,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 89,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-d2-3": {
+    "type": "holder",
+    "id": "cell-d2-3",
+    "x": 525,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 86,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-d2-4": {
+    "type": "holder",
+    "id": "cell-d2-4",
+    "x": 575,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 88,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-d2-5": {
+    "type": "holder",
+    "id": "cell-d2-5",
+    "x": 625,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 87,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-d2-6": {
+    "type": "holder",
+    "id": "cell-d2-6",
+    "x": 550,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 92,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-s4-2": {
+    "type": "holder",
+    "id": "cell-s4-2",
+    "x": 600,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 120,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-s4-3": {
+    "type": "holder",
+    "id": "cell-s4-3",
+    "x": 525,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 116,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-s4-4": {
+    "type": "holder",
+    "id": "cell-s4-4",
+    "x": 575,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 114,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-s4-5": {
+    "type": "holder",
+    "id": "cell-s4-5",
+    "x": 625,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 115,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-s4-6": {
+    "type": "holder",
+    "id": "cell-s4-6",
+    "x": 550,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 118,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-s4-7": {
+    "type": "holder",
+    "id": "cell-s4-7",
+    "x": 600,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 119,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s4-1"
+  },
+  "cell-p1-2": {
+    "type": "holder",
+    "id": "cell-p1-2",
+    "x": 805,
+    "y": 30,
+    "width": 44,
+    "height": 44,
+    "z": 52,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p1-3": {
+    "type": "holder",
+    "id": "cell-p1-3",
+    "x": 730,
+    "y": 80,
+    "width": 44,
+    "height": 44,
+    "z": 50,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p1-4": {
+    "type": "holder",
+    "id": "cell-p1-4",
+    "x": 780,
+    "y": 80,
+    "width": 44,
+    "height": 44,
+    "z": 48,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p1-5": {
+    "type": "holder",
+    "id": "cell-p1-5",
+    "x": 830,
+    "y": 80,
+    "width": 44,
+    "height": 44,
+    "z": 49,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p1-6": {
+    "type": "holder",
+    "id": "cell-p1-6",
+    "x": 755,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 68,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p1-7": {
+    "type": "holder",
+    "id": "cell-p1-7",
+    "x": 805,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 69,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p1-1"
+  },
+  "cell-p2-3": {
+    "type": "holder",
+    "id": "cell-p2-3",
+    "x": 730,
+    "y": 880,
+    "width": 44,
+    "height": 44,
+    "z": 78,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-p2-4": {
+    "type": "holder",
+    "id": "cell-p2-4",
+    "x": 780,
+    "y": 880,
+    "width": 44,
+    "height": 44,
+    "z": 76,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-p2-5": {
+    "type": "holder",
+    "id": "cell-p2-5",
+    "x": 830,
+    "y": 880,
+    "width": 44,
+    "height": 44,
+    "z": 77,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-p2-6": {
+    "type": "holder",
+    "id": "cell-p2-6",
+    "x": 755,
+    "y": 930,
+    "width": 44,
+    "height": 44,
+    "z": 84,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-p2-7": {
+    "type": "holder",
+    "id": "cell-p2-7",
+    "x": 805,
+    "y": 930,
+    "width": 44,
+    "height": 44,
+    "z": 85,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-p2-2": {
+    "type": "holder",
+    "id": "cell-p2-2",
+    "x": 805,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 80,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-p2-1"
+  },
+  "cell-s2-2": {
+    "type": "holder",
+    "id": "cell-s2-2",
+    "x": 805,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 57,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-s2-3": {
+    "type": "holder",
+    "id": "cell-s2-3",
+    "x": 730,
+    "y": 280,
+    "width": 44,
+    "height": 44,
+    "z": 55,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-s2-4": {
+    "type": "holder",
+    "id": "cell-s2-4",
+    "x": 780,
+    "y": 280,
+    "width": 44,
+    "height": 44,
+    "z": 53,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-s2-5": {
+    "type": "holder",
+    "id": "cell-s2-5",
+    "x": 830,
+    "y": 280,
+    "width": 44,
+    "height": 44,
+    "z": 54,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-s2-6": {
+    "type": "holder",
+    "id": "cell-s2-6",
+    "x": 755,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 66,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-s2-7": {
+    "type": "holder",
+    "id": "cell-s2-7",
+    "x": 805,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 67,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s2-1"
+  },
+  "cell-d3-2": {
+    "type": "holder",
+    "id": "cell-d3-2",
+    "x": 805,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 63,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-d3-3": {
+    "type": "holder",
+    "id": "cell-d3-3",
+    "x": 730,
+    "y": 480,
+    "width": 44,
+    "height": 44,
+    "z": 65,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-d3-4": {
+    "type": "holder",
+    "id": "cell-d3-4",
+    "x": 780,
+    "y": 480,
+    "width": 44,
+    "height": 44,
+    "z": 58,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-d3-5": {
+    "type": "holder",
+    "id": "cell-d3-5",
+    "x": 830,
+    "y": 480,
+    "width": 44,
+    "height": 44,
+    "z": 59,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-d3-6": {
+    "type": "holder",
+    "id": "cell-d3-6",
+    "x": 755,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 61,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-d3-7": {
+    "type": "holder",
+    "id": "cell-d3-7",
+    "x": 805,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 62,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d3-1"
+  },
+  "cell-s5-2": {
+    "type": "holder",
+    "id": "cell-s5-2",
+    "x": 805,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 81,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s5-3": {
+    "type": "holder",
+    "id": "cell-s5-3",
+    "x": 730,
+    "y": 680,
+    "width": 44,
+    "height": 44,
+    "z": 74,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s5-4": {
+    "type": "holder",
+    "id": "cell-s5-4",
+    "x": 780,
+    "y": 680,
+    "width": 44,
+    "height": 44,
+    "z": 72,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s5-5": {
+    "type": "holder",
+    "id": "cell-s5-5",
+    "x": 830,
+    "y": 680,
+    "width": 44,
+    "height": 44,
+    "z": 73,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s5-6": {
+    "type": "holder",
+    "id": "cell-s5-6",
+    "x": 755,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 82,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s5-7": {
+    "type": "holder",
+    "id": "cell-s5-7",
+    "x": 805,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 83,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s5-1"
+  },
+  "cell-s6-2": {
+    "type": "holder",
+    "id": "cell-s6-2",
+    "x": 1005,
+    "y": 730,
+    "width": 44,
+    "height": 44,
+    "z": 126,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s6-3": {
+    "type": "holder",
+    "id": "cell-s6-3",
+    "x": 930,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 124,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s6-4": {
+    "type": "holder",
+    "id": "cell-s6-4",
+    "x": 980,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 122,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s6-5": {
+    "type": "holder",
+    "id": "cell-s6-5",
+    "x": 1030,
+    "y": 780,
+    "width": 44,
+    "height": 44,
+    "z": 123,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s6-6": {
+    "type": "holder",
+    "id": "cell-s6-6",
+    "x": 955,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 127,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s6-7": {
+    "type": "holder",
+    "id": "cell-s6-7",
+    "x": 1005,
+    "y": 830,
+    "width": 44,
+    "height": 44,
+    "z": 128,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s6-1"
+  },
+  "cell-s3-2": {
+    "type": "holder",
+    "id": "cell-s3-2",
+    "x": 1005,
+    "y": 130,
+    "width": 44,
+    "height": 44,
+    "z": 47,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-s3-3": {
+    "type": "holder",
+    "id": "cell-s3-3",
+    "x": 930,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 64,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-s3-4": {
+    "type": "holder",
+    "id": "cell-s3-4",
+    "x": 980,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 44,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-s3-5": {
+    "type": "holder",
+    "id": "cell-s3-5",
+    "x": 1030,
+    "y": 180,
+    "width": 44,
+    "height": 44,
+    "z": 45,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-s3-6": {
+    "type": "holder",
+    "id": "cell-s3-6",
+    "x": 955,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 70,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-s3-7": {
+    "type": "holder",
+    "id": "cell-s3-7",
+    "x": 1005,
+    "y": 230,
+    "width": 44,
+    "height": 44,
+    "z": 71,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-s3-1"
+  },
+  "cell-d2-7": {
+    "type": "holder",
+    "id": "cell-d2-7",
+    "x": 600,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 91,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "inheritFrom": "cell-d2-1"
+  },
+  "cell-d4-2": {
+    "type": "holder",
+    "id": "cell-d4-2",
+    "x": 1005,
+    "y": 330,
+    "width": 44,
+    "height": 44,
+    "z": 104,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "dell-d4-3": {
+    "type": "holder",
+    "id": "dell-d4-3",
+    "x": 930,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 102,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1"
+  },
+  "cell-d4-4": {
+    "type": "holder",
+    "id": "cell-d4-4",
+    "x": 980,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 100,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1"
+  },
+  "cell-d4-5": {
+    "type": "holder",
+    "id": "cell-d4-5",
+    "x": 1030,
+    "y": 380,
+    "width": 44,
+    "height": 44,
+    "z": 101,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1"
+  },
+  "cell-d4-6": {
+    "type": "holder",
+    "id": "cell-d4-6",
+    "x": 955,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 105,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1"
+  },
+  "cell-d4-7": {
+    "type": "holder",
+    "id": "cell-d4-7",
+    "x": 1005,
+    "y": 430,
+    "width": 44,
+    "height": 44,
+    "z": 106,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d4-1"
+  },
+  "cell-d5-2": {
+    "type": "holder",
+    "id": "cell-d5-2",
+    "x": 1005,
+    "y": 530,
+    "width": 44,
+    "height": 44,
+    "z": 96,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1"
+  },
+  "cell-d5-3": {
+    "type": "holder",
+    "id": "cell-d5-3",
+    "x": 930,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 97,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1"
+  },
+  "cell-d5-4": {
+    "type": "holder",
+    "id": "cell-d5-4",
+    "x": 980,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 93,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1"
+  },
+  "cell-d5-5": {
+    "type": "holder",
+    "id": "cell-d5-5",
+    "x": 1030,
+    "y": 580,
+    "width": 44,
+    "height": 44,
+    "z": 94,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1"
+  },
+  "cell-d5-6": {
+    "type": "holder",
+    "id": "cell-d5-6",
+    "x": 955,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 98,
+    "inheritChildZ": true,
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ],
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1"
+  },
+  "cell-d5-7": {
+    "type": "holder",
+    "id": "cell-d5-7",
+    "x": 1005,
+    "y": 630,
+    "width": 44,
+    "height": 44,
+    "z": 99,
+    "inheritChildZ": true,
+    "movable": false,
+    "movableInEdit": true,
+    "inheritFrom": "cell-d5-1",
+    "dropTarget": [
+      {
+        "deck": "9e564189-b8ed-49f0-a174-6ca136fee2f5"
+      }
+    ]
+  },
+  "8b22": {
+    "image": "/assets/-258911923_842898",
+    "movable": false,
+    "width": 1600,
+    "height": 1000,
+    "layer": -4,
+    "id": "8b22"
+  },
+  "holder-die-p1": {
+    "type": "holder",
+    "id": "holder-die-p1",
+    "x": 415,
+    "y": 100,
+    "width": 58,
+    "height": 58,
+    "z": 129,
+    "dropTarget": [
+      {
+        "type": "dice"
+      }
+    ],
+    "linkedToSeat": "seat-p1"
+  },
+  "holder-die-p2": {
+    "type": "holder",
+    "id": "holder-die-p2",
+    "x": 415,
+    "y": 350,
+    "width": 58,
+    "height": 58,
+    "z": 129,
+    "dropTarget": [
+      {
+        "type": "dice"
+      }
+    ],
+    "linkedToSeat": "seat-p2"
+  },
+  "holder-die-p3": {
+    "type": "holder",
+    "id": "holder-die-p3",
+    "x": 415,
+    "y": 600,
+    "width": 58,
+    "height": 58,
+    "z": 129,
+    "dropTarget": [
+      {
+        "type": "dice"
+      }
+    ],
+    "linkedToSeat": "seat-p3"
+  },
+  "holder-die-p4": {
+    "type": "holder",
+    "id": "holder-die-p4",
+    "x": 415,
+    "y": 850,
+    "width": 58,
+    "height": 58,
+    "z": 129,
+    "dropTarget": [
+      {
+        "type": "dice"
+      }
+    ],
+    "linkedToSeat": "seat-p4"
+  },
+  "12vr": {
+    "type": "scoreboard",
+    "x": 1287,
+    "y": 969,
+    "id": "12vr",
+    "z": 113
+  }
+}
